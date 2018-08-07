@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Resume</title>
+</head>
+<body>
+<form action="Resume" method="get">
+
+First Name<input type="text" name="firstname"/>
+Last Name<input type="text" name="lastname"/><br/>
+
+Gender<input type="radio" name="gender" value="Female" />Female
+<input type="radio" name="gender" value="male"/>Male<br/>
+
+Highest Qualification<select name="qualification" >
+<option value="B.E.">B.E.</option>
+<option value="B.S.C.">B.S.C.</option>
+<option value="M.B.A.">M.B.A.</option>
+<option value="M.E">M.E.</option>
+<option value="M.S.">M.S.</option>
+</select><br/>
+
+Date of Birth<input type = "date" name="dob" /><br/>
+
+Hobbies<select multiple>
+<option value="Reading">Reading</option>
+<option value="Painting">Painting</option>
+<option value="Singing">Singing</option>
+<option value="Dancing">Dancing</option>
+<option value="Acting">Acting</option>
+<option value="Teaching">Teaching</option>
+</select><br/>
+
+Address<textarea rows="4" cols="10" name="address"></textarea><br/>
+
+Skills<input type="checkbox" name="skills" value="C"/>
+<input type="checkbox" name="skills" value="C++"/>C++
+<input type="checkbox" name="skills" value="JAVA"/>JAVA
+<input type="checkbox" name="skills" value="JAVASCRIPT"/>JAVASCRIPT<br/>
+<input type="checkbox" name="skills" value="PYTHON"/>PYTHON
+<input type="checkbox" name="skills" value="DOTNET"/>DOTNET
+<input type="checkbox" name="skills" value="Machine Learning"/>Machine Learning<br/>
+
+Email<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/><br/>
+
+Web site<input type="url" name="website"/><br/>
+
+Contact Number<input type="text" name="contact" pattern="[789][0-9]{9}"/><br/>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
