@@ -13,7 +13,7 @@
 </div>
 
 
-<center><form action="LoginController" method="post">
+<center><form action="home.app" method="post">
 <table>
 <tr>
 	<td>User Name <input type="text" name="username" placeholder="Your user name" required/></td>
